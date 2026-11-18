@@ -1,10 +1,13 @@
 [package]
-name = "arch-shader-agency-kernel"
+name = "sigmaos-arch-shader-agency-kernel"
 version = "0.1.0"
 edition = "2021"
-description = "SigmaOS SigmaOS-arch-shader-agency-kernel component - Inspired by Arch Linux and Debian"
+description = "Agency shader kernel for SigmaOS"
 license = "MIT"
 repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-arch-shader-agency-kernel"
 
 [dependencies]
-thiserror = "2"
+
+[lib]
+name = "sigmaos_arch_shader_agency_kernel"
+path = "src/lib.rs"
